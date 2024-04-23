@@ -1,7 +1,19 @@
 import { DiscussionEmbed } from "disqus-react";
 import "./App.css";
 
-const scrambled_robotnik_bangers = ['YapeV5XBgQ4', 'HnyGSl3K-IE', 'TVli0334lD0', 'lTZ9t-KymYo'].sort(() => Math.random() - 0.5)
+const scrambled_robotnik_bangers = 
+['YapeV5XBgQ4', 
+'HnyGSl3K-IE', 
+'TVli0334lD0', 
+'lTZ9t-KymYo',
+'pTt2mEH7vFc',
+'NXCjZESUeFg',
+'xZEPgLkzhwE',
+'Ja-6D8uVcH0',
+'XXqkAuAool0',
+'h_HDv-SUta4',
+'rR87r63315g',
+'Gw0YduM21TE'].sort(() => Math.random() - 0.5)
 
 function App() {
   return (
