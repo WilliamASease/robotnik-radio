@@ -1,6 +1,6 @@
 import "./App.css";
 
-const robotnik_bangers = ['YapeV5XBgQ4','HnyGSl3K-IE'].join(',')
+const robotnik_bangers = ['YapeV5XBgQ4','HnyGSl3K-IE','TVli0334lD0','lTZ9t-KymYo'].sort(() => Math.random() - 0.5).join(',')
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       style={{position:'fixed', bottom:50, left:10}}
       width="50" 
       height="50"
-      src={`https://www.youtube.com/embed/YapeV5XBgQ4?si=fqZyhoEsYYaoxkLL&autoplay=1&playlist=${robotnik_bangers}`}
+      src={`https://www.youtube.com/embed/YapeV5XBgQ4?si=fqZyhoEsYYaoxkLL&playlist=${robotnik_bangers}&autoplay=1`}
       title="YouTube video player" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       >
